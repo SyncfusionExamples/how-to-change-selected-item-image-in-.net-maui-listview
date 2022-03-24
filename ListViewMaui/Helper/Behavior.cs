@@ -25,8 +25,6 @@ namespace ListViewMaui
             ListView = bindable.FindByName<Syncfusion.Maui.ListView.SfListView>("listView");
             ListView.SelectionChanged += ListView_SelectionChanged;
 
-
-
             SelectionViewModel = new ListViewSelectionViewModel();
             ListView.BindingContext = SelectionViewModel;
             ListView.ItemsSource = SelectionViewModel.MusicInfo;
@@ -143,6 +141,7 @@ namespace ListViewMaui
         #endregion
 
     }
+
     #endregion
 
 }
