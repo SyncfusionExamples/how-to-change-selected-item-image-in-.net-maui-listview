@@ -30,7 +30,7 @@
                             VerticalOptions="Center" HorizontalOptions="Center"/>
                         <Label VerticalOptions="Center" HorizontalOptions="Center"
                                Grid.Column="0" Grid.Row="0"
-                               FontSize="{OnPlatform MacCatalyst=Large, Android=Large, iOS=Large, UWP=Medium, WPF=Medium}" 
+                               FontSize="{OnPlatform MacCatalyst=Large, Android=Large, iOS=Large, UWP=Medium}" 
                                Text ="&#xe718;" TextColor="White" 
                                FontFamily="{OnPlatform iOS=SB Icons, MacCatalyst=SB Icons, Android=SB Icons.ttf#, UWP=SB Icons.ttf#SB Icons}"/>
                         <Grid Grid.Column="1" Grid.Row="0" 
@@ -67,7 +67,7 @@
                                WidthRequest="40" HeightRequest="40" 
                                HorizontalOptions="Start" HorizontalTextAlignment="Start"
                                VerticalOptions="Center" VerticalTextAlignment="Center"
-                               FontSize="{OnPlatform Android=Large, UWP=Medium, WPF=Medium, iOS=Large, MacCatalyst=Large}"
+                               FontSize="{OnPlatform Android=Large, UWP=Medium, iOS=Large, MacCatalyst=Large}"
                                Text="{Binding IsSelected, Converter={StaticResource SelectionIconConverter}}"
                                TextColor="{Binding Path=IsSelected, Converter={StaticResource IconColorConverter}}"
                                FontFamily="{OnPlatform iOS=Sync FontIcons, MacCatalyst=Sync FontIcons, Android=Sync FontIcons.ttf#, UWP=Sync FontIcons.ttf#Sync FontIcons}"/>
@@ -94,7 +94,7 @@
                   Grid.Column="1" HorizontalOptions="End"
                   HeightRequest="50">
                 <Label x:Name="selectAllIcon"
-                       FontSize="{OnPlatform Android=Large, UWP=Medium, WPF=Medium, iOS=Large, MacCatalyst=Large}"
+                       FontSize="{OnPlatform Android=Large, UWP=Medium, iOS=Large, MacCatalyst=Large}"
                        Text="{Binding IsAllSelected, Converter={StaticResource SelectionIconConverter}}" 
                        TextColor="{Binding Path=IsAllSelected, Converter={StaticResource IconColorConverter}}"
                        FontFamily="{OnPlatform iOS=Sync FontIcons, MacCatalyst=Sync FontIcons, Android=Sync FontIcons.ttf#, UWP=Sync FontIcons.ttf#Sync FontIcons}"
