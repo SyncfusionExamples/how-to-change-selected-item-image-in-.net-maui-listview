@@ -1,2 +1,1 @@
-# how-to-change-selected-item-image-in-.net-maui-listview
-This example demonstrates how to change the selected item image dynamically in .NET MAUI ListView
+**[View document in Syncfusion .NET MAUI Knowledge Base](https://www.syncfusion.com/kb/13080/how-to-change-selected-image-in-net-maui-listview-sflistview)**
