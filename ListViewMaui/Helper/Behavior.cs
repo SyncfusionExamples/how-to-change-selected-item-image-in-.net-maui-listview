@@ -102,7 +102,7 @@ namespace ListViewMaui
                     ListView.SelectedItems.Clear();
                 if (args != null)
                 {
-                    var currentItem = args.ItemData as Musiqnfo;
+                    var currentItem = args.DataItem as Musiqnfo;
                     if (currentItem != null)
                     {
                         currentItem.IsSelected = true;
