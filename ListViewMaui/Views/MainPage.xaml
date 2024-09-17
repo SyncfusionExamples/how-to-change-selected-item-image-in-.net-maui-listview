@@ -114,6 +114,7 @@
             Grid.Row="1"
             AutoFitMode="None"
             SelectionGesture="Tap"
+            ScrollBarVisibility="Always"
             SelectionMode="Multiple"
             SelectedItems="{Binding SelectedItems}"
             SelectionBackground ="#E4E4E4"
